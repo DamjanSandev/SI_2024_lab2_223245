@@ -35,7 +35,7 @@ price > 300 discount > 0 i barcode[0]=0 исто така врака true 472*0.
 
 **Multiple Condition**
 
-// if(item.getPrice() > 300 && item.getDiscount() > 0 && item.getBarcode().charAt(0) == '0')
+if(item.getPrice() > 300 && item.getDiscount() > 0 && item.getBarcode().charAt(0) == '0')
 
         //TTT
 
